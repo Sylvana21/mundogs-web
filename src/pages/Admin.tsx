@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Lock, RefreshCw, Phone, Mail, MapPin, PawPrint, CalendarOff, CalendarCheck, Trash2, Image } from "lucide-react";
-import { listAppointments, updateAppointmentStatus, updateAppointmentPets, type Appointment, type PetEntry } from "../lib/appointments";
+import { listAppointments, updateAppointmentStatus, updateAppointmentPets, type Appointment } from "../lib/appointments";
 import { deletePhotoByUrl, deleteAppointmentPhotos } from "../lib/storage";
 import { formatSlot12h, getUpcomingDays, getDaySlots, getBlockedSlots, toggleBlockedSlot, type BlockedSlots } from "../lib/availability";
 
